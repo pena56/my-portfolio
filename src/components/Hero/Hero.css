@@ -3,6 +3,9 @@
   display: flex;
   width: 100%;
   box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 90px;
+  background: #f9f9f9;
 }
 
 .hero__details {
@@ -10,9 +13,42 @@
   padding: 20px;
 }
 
-.hero__details-text {
+.hero__text {
   text-transform: uppercase;
   margin: 10px 0;
+}
+
+.hero__greeting {
+  font-size: 1.5rem;
+}
+
+.hero__name {
+  font-size: 3rem;
+}
+
+.hero__position {
+  font-size: 1.3rem;
+}
+
+.hero__about {
+  font-size: 1.2rem;
+}
+
+.hero__contacts {
+  display: flex;
+  padding: 10px;
+  margin: 10px 0;
+  color: #d4324c;
+}
+
+.hero__contacts > span {
+  margin: 0 10px;
+  color: black;
+}
+
+.svg__icon {
+  width: 30px;
+  height: 30px;
 }
 
 @media screen and (max-width: 700px) {

@@ -1,0 +1,24 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 0 70px;
+  align-items: center;
+}
+
+.about__text {
+  width: 60%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 700px) {
+  .about {
+    padding: 0 20px;
+  }
+
+  .about__text {
+    width: 100%;
+  }
+}

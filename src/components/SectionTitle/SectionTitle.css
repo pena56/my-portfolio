@@ -1,0 +1,11 @@
+.sectiontitle__title {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Nerko One', cursive;
+  margin: 5px 0;
+  color: #d4324c;
+}
+
+.sectiontitle__tag {
+  color: #a08989;
+}

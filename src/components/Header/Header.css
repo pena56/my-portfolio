@@ -1,25 +1,65 @@
 .header {
   display: flex;
   height: 100px;
-  overflow-x: hidden;
+  overflow: hidden;
   align-items: center;
-  background: #f3f3f3;
+  font-family: 'Nerko One', cursive;
   padding: 0 50px;
+  background: white;
   justify-content: space-between;
   box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .header__brand {
   font-size: 2rem;
+  overflow: hidden;
+  border-right: 0.15em solid black;
+  white-space: nowrap;
+  width: 7rem;
+  animation: typing 2s steps(40, end), blink-caret 0.75s step-end;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.header__brand:hover {
+  transform: rotate(5deg);
 }
 
 .header__items-icon {
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
+.icon__image {
+  width: 30px;
+  height: 30px;
+}
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   .header {
     padding: 0 10px;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 7rem;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
   }
 }
