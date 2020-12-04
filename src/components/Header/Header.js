@@ -10,7 +10,9 @@ import './Header.css';
 function Header() {
   return (
     <nav className="header">
-      <p className="header__brand">&lt; M.O /&gt;</p>
+      <p className="header__brand">
+        &lt; <span>M.O</span> /&gt;
+      </p>
       <div className="header__items">
         <a
           className="header__items-icon"

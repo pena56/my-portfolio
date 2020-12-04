@@ -54,8 +54,7 @@ function Hero() {
       setAbout(
         <Slide left>
           <p className="hero__about">
-            Some details about my self Some details about my self Some details
-            about my self Some details about my self
+            A design Oriented Frontend Developer
           </p>
         </Slide>
       );

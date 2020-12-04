@@ -1,0 +1,131 @@
+.projects {
+  padding: 0 70px;
+  display: flex;
+  padding-bottom: 30px;
+  background: #f9f9f9;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+  margin: 20px 0;
+}
+
+.project {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 20px;
+  margin-bottom: 100px;
+}
+
+.project__image {
+  width: 70%;
+  height: auto;
+  border: 2px solid #a08989;
+  border-radius: 5px;
+  object-fit: contain;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.project__image:hover {
+  opacity: 1;
+}
+
+.project__desc {
+  width: 70%;
+  background: white;
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  /* height: 250px; */
+  padding: 20px;
+  border: 2px solid #a08989;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 0 #ccc;
+}
+
+.project__details {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+.project__title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  color: #d4324c;
+  font-family: 'Nerko One', cursive;
+}
+
+.project__svg {
+  width: 30px;
+  height: 30px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.project__svg:hover {
+  transform: scale(1.1);
+}
+
+.project__stacks {
+  margin: 20px 0;
+}
+
+.project__buttons {
+  display: flex;
+  margin: 20px 0;
+}
+
+.project__button {
+  margin: 10px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #d4324c;
+  transition: all 0.3s ease-in-out;
+}
+
+.project__button:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 700px) {
+  .projects {
+    padding: 0 10px;
+  }
+
+  .project__image {
+    width: 100%;
+    border: none;
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  .project__desc {
+    position: inherit;
+    width: 85%;
+    left: 0;
+    top: 0;
+    border: none;
+    box-shadow: none;
+  }
+
+  .project {
+    flex-direction: column;
+    border: 2px solid #d4324c;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+  }
+}

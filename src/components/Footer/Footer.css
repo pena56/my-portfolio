@@ -5,6 +5,7 @@
   box-sizing: border-box;
   justify-content: center;
   background: white;
+  box-shadow: 0 -2px 8px 0 #ccc;
 }
 
 .footer__text {

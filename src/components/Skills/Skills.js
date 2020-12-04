@@ -19,6 +19,7 @@ import nextjsLogo from '../../img/nextjs.svg';
 import bemLogo from '../../img/bem.svg';
 import reduxLogo from '../../img/redux.svg';
 import tailwindLogo from '../../img/tailwindcss.svg';
+import materialLogo from '../../img/material-ui.svg';
 
 
 function Skills() {
@@ -71,43 +72,53 @@ function Skills() {
           <div className="skill__item">
             <img
               className="skill__image"
-              src={javascriptLogo}
-              alt="javascript logo"
+              src={materialLogo}
+              alt="tailwind logo"
             />
           </div>
         </Tada>
 
         <Tada delay="3500">
           <div className="skill__item">
-            <img className="skill__image" src={reactLogo} alt="react logo" />
+            <img
+              className="skill__image"
+              src={javascriptLogo}
+              alt="javascript logo"
+            />
           </div>
         </Tada>
 
         <Tada delay="4000">
           <div className="skill__item">
-            <img className="skill__image" src={nextjsLogo} alt="nextjs logo" />
+            <img className="skill__image" src={reactLogo} alt="react logo" />
           </div>
         </Tada>
 
         <Tada delay="4500">
           <div className="skill__item">
-            <img className="skill__image" src={reduxLogo} alt="redux logo" />
+            <img className="skill__image" src={nextjsLogo} alt="nextjs logo" />
           </div>
         </Tada>
 
         <Tada delay="5000">
           <div className="skill__item">
-            <img className="skill__image" src={pythonLogo} alt="python logo" />
+            <img className="skill__image" src={reduxLogo} alt="redux logo" />
           </div>
         </Tada>
 
         <Tada delay="5500">
           <div className="skill__item">
-            <img className="skill__image" src={djangoLogo} alt="django logo" />
+            <img className="skill__image" src={pythonLogo} alt="python logo" />
           </div>
         </Tada>
 
         <Tada delay="6000">
+          <div className="skill__item">
+            <img className="skill__image" src={djangoLogo} alt="django logo" />
+          </div>
+        </Tada>
+
+        <Tada delay="6500">
           <div className="skill__item">
             <img className="skill__image" src={gitLogo} alt="git logo" />
           </div>
