@@ -6,6 +6,7 @@ import googlemapsLogo from 'super-tiny-icons/images/svg/google_maps.svg';
 
 import './Hero.css';
 import CodeEditor from '../CodeEditor/CodeEditor';
+import ContactButton from '../Contact/ContactButton';
 
 function Hero() {
   const [greeting, setGreeting] = useState('');
@@ -15,6 +16,7 @@ function Hero() {
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [location, setLocation] = useState('');
+  const [contact, setContact] = useState('');
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -54,7 +56,8 @@ function Hero() {
       setAbout(
         <Slide left>
           <p className="hero__about">
-            A design Oriented Frontend Developer
+            A design Oriented Frontend Developer A design Oriented Frontend
+            Developer
           </p>
         </Slide>
       );
@@ -104,6 +107,17 @@ function Hero() {
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setContact(
+        <Slide bottom>
+          <ContactButton />
+        </Slide>
+      );
+    }, 35000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="hero">
       <div className="hero__details">
@@ -114,6 +128,7 @@ function Hero() {
         {phone}
         {email}
         {location}
+        {contact}
       </div>
       <CodeEditor />
     </div>

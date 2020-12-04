@@ -27,12 +27,13 @@
 .project__image {
   width: 70%;
   height: auto;
-  border: 2px solid #a08989;
+  /* border: 2px solid #a08989; */
   border-radius: 5px;
   object-fit: contain;
   opacity: 0.5;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 8px 0 #ccc;
 }
 
 .project__image:hover {
@@ -47,7 +48,7 @@
   top: 25%;
   /* height: 250px; */
   padding: 20px;
-  border: 2px solid #a08989;
+  /* border: 2px solid #a08989; */
   border-radius: 5px;
   box-shadow: 0 2px 8px 0 #ccc;
 }
@@ -122,7 +123,7 @@
 
   .project {
     flex-direction: column;
-    border: 2px solid #d4324c;
+    /* border: 2px solid #d4324c; */
     border-radius: 5px;
     background: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
