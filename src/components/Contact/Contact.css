@@ -2,10 +2,9 @@
   padding: 0 70px;
   display: flex;
   padding-bottom: 30px;
-  background: #f9f9f9;
   flex-direction: column;
   align-items: center;
-  /* margin-bottom: 100px; */
+  box-sizing: border-box;
 }
 
 .contact__items {
@@ -29,6 +28,7 @@
   background: #d4324c;
   margin: 0 5px;
   transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
 }
 
 .contact__button:hover {

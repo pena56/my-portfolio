@@ -5,7 +5,6 @@
   align-items: center;
   font-family: 'Nerko One', cursive;
   padding: 0 50px;
-  background: white;
   justify-content: space-between;
   box-sizing: border-box;
   position: fixed;
@@ -13,7 +12,6 @@
   left: 0;
   width: 100%;
   z-index: 100;
-  box-shadow: 0 2px 8px 0 #ccc;
 }
 
 .header__brand {
@@ -36,6 +34,10 @@
   transform: rotate(5deg);
 }
 
+.header__items {
+  display: flex;
+}
+
 .header__items-icon {
   margin: 0 5px;
 }
@@ -44,6 +46,68 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+
+.toggle-container {
+  display: flex;
+  margin: 0 2px;
+}
+
+.toggle-container > span {
+  font-size: 1.2em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-top: 4px;
+  margin-right: 2px;
+}
+
+.toggle-container > span:last-child {
+  margin-top: 5px;
+}
+
+.toggle {
+  position: relative;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+}
+
+input[type='checkbox'].checkbox {
+  width: 20px;
+  height: 10px;
+  background: #555;
+  position: relative;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  vertical-align: 2px;
+  outline: none;
+}
+
+input[type='checkbox'].checkbox:checked + label {
+  left: 15px;
+}
+
+input[type='checkbox'].checkbox:focus-visible {
+  outline: solid 2px white;
+}
+
+input[type='checkbox'].checkbox + label {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: absolute;
+  left: 2px;
+  background: #fff;
+  opacity: 0.9;
+  background-color: cyan;
 }
 
 @media screen and (max-width: 700px) {

@@ -5,10 +5,12 @@ import Pulse from 'react-reveal/Pulse';
 import './Experience.css';
 import SvgLayout from '../SvgLayout/SvgLayout';
 import SectionTitle from '../SectionTitle/SectionTitle';
+import { useStateValue } from '../../StateProvider';
 
 function Experience() {
+  const [{ darkMode }] = useStateValue();
   return (
-    <div className="experiences">
+    <div className={darkMode ? 'experiences dark__mode-1' : 'experiences light__mode-1'}>
       <SvgLayout />
       <Slide right>
         <SectionTitle name="Experience" />

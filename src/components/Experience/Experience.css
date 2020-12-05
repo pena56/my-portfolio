@@ -11,7 +11,6 @@
   padding: 20px;
   position: relative;
   border-radius: 5px;
-  background: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 10px;
 }
@@ -21,9 +20,16 @@
   top: -54px;
   left: 10px;
   padding: 10px;
-  background: white;
   font-family: 'Nerko One', cursive;
   font-size: 1.7rem;
+}
+
+.light__mode-1 > .experiences__list > .experience__item > .experience__title {
+  background: white;
+}
+
+.dark__mode-1 > .experiences__list > .experience__item > .experience__title {
+  background: #01183a;
 }
 
 .experience__activities {
@@ -44,6 +50,10 @@
 .experience__position span {
   font-size: 3rem;
   color: black;
+}
+
+.dark__mode-1 > .experiences__list > .experience__item > .experience__activities > .experience__position > span {
+  color: #999;
 }
 
 .experience__activity {

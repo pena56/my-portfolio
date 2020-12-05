@@ -7,8 +7,11 @@ import googlemapsLogo from 'super-tiny-icons/images/svg/google_maps.svg';
 import './Hero.css';
 import CodeEditor from '../CodeEditor/CodeEditor';
 import ContactButton from '../Contact/ContactButton';
+import {useStateValue} from '../../StateProvider';
 
 function Hero() {
+  const [{darkMode}] = useStateValue()
+
   const [greeting, setGreeting] = useState('');
   const [name, setName] = useState('');
   const [position, setPosition] = useState('');
@@ -119,7 +122,7 @@ function Hero() {
   }, []);
 
   return (
-    <div className="hero">
+    <div className={darkMode ? 'hero dark__mode-2' : 'hero light__mode-2'}>
       <div className="hero__details">
         {greeting}
         {name}

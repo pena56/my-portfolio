@@ -12,3 +12,28 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.light__mode-1 {
+  background: white;
+  box-shadow: 0 2px 8px 0 #ccc;
+  transition: background 0.25s ease-out;
+}
+
+.dark__mode-1 {
+  background: #01183a;
+  box-shadow: none;
+  color: #999;
+  transition: background 0.25s ease-out;
+}
+
+.light__mode-2 {
+  background: #f9f9f9;
+  color: black;
+  transition: background 0.25s ease-out;
+}
+
+.dark__mode-2 {
+  background: #021129;
+  color: #999;
+  transition: background 0.25s ease-out;
+}

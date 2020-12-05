@@ -2,7 +2,6 @@
   padding: 0 70px;
   display: flex;
   padding-bottom: 30px;
-  background: #ffffff;
   flex-direction: column;
   align-items: center;
 }
@@ -45,7 +44,6 @@
 .article__author {
   margin: 0;
   font-size: .9rem;
-  color: #575050;
   padding: 0 10px;
   display: flex;
   align-items: center;
@@ -70,14 +68,14 @@
 .article__date {
   margin: 0;
   font-size: .8rem;
-  color: #575050;
   padding: 10px;
 }
 
 @media screen and (max-width: 700px){
   .articles{
     padding: 0 10px;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
+    padding-bottom: 30px;
   }
 
   .articles__list {

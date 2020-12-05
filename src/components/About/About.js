@@ -4,10 +4,12 @@ import Slide from 'react-reveal/Slide';
 import './About.css';
 import SvgLayout from '../SvgLayout/SvgLayout';
 import SectionTitle from '../SectionTitle/SectionTitle';
+import {useStateValue} from '../../StateProvider';
 
 function About() {
+  const [{darkMode}] = useStateValue()
   return (
-    <div className="about">
+    <div className={darkMode ? 'about dark__mode-1' : 'about light__mode-1'}>
       <SvgLayout />
       <Slide right>
         <SectionTitle name="About Me" />

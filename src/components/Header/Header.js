@@ -6,10 +6,17 @@ import facebookLogo from 'super-tiny-icons/images/svg/facebook.svg';
 import linkedinLogo from 'super-tiny-icons/images/svg/linkedin.svg';
 
 import './Header.css';
+import { useStateValue } from '../../StateProvider';
 
 function Header() {
+  const [{ darkMode }, dispatch] = useStateValue();
+  const toogleMode = () => {
+    dispatch({
+      type: 'SET_MODE',
+    });
+  };
   return (
-    <nav className="header">
+    <nav className={darkMode ? 'header dark__mode-1' : 'header light__mode-1'}>
       <p className="header__brand">
         &lt; <span>M.O</span> /&gt;
       </p>
@@ -46,6 +53,20 @@ function Header() {
         >
           <img className="icon__image" src={facebookLogo} alt="facebook" />
         </a>
+        <div className="toggle-container">
+          <span style={{ color: darkMode ? "grey" : "yellow" }}>☀︎</span>
+          <span className="toggle">
+            <input
+              checked={darkMode}
+              onChange={toogleMode}
+              id="checkbox"
+              className="checkbox"
+              type="checkbox"
+            />
+            <label htmlFor="checkbox" />
+          </span>
+          <span style={{ color: darkMode ? "slateblue" : "grey" }}>☾</span>
+        </div>
       </div>
     </nav>
   );

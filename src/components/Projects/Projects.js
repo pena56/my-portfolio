@@ -11,6 +11,7 @@ import githubLogo from 'super-tiny-icons/images/svg/github.svg';
 import './Projects.css';
 import SvgLayout from '../SvgLayout/SvgLayout';
 import SectionTitle from '../SectionTitle/SectionTitle';
+import { useStateValue } from '../../StateProvider';
 
 import bookstore from '../../img/screenshots/book-store.png';
 import netflix from '../../img/screenshots/netflix-clone.png';
@@ -30,8 +31,11 @@ import firebaseLogo from '../../img/firebase.svg';
 import herokuLogo from '../../img/heroku-icon.svg';
 
 function Projects() {
+  const [{ darkMode }] = useStateValue();
   return (
-    <div className="projects">
+    <div
+      className={darkMode ? 'projects dark__mode-2' : 'projects light__mode-2'}
+    >
       <SvgLayout />
       <Slide left>
         <SectionTitle name="Projects" />

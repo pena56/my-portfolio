@@ -1,6 +1,5 @@
 .skills {
   display: flex;
-  background: #f9f9f9;
   flex-direction: column;
   align-items: center;
   padding: 0 100px;

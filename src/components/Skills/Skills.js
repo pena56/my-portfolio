@@ -12,6 +12,7 @@ import gitLogo from 'super-tiny-icons/images/svg/git.svg';
 import './Skills.css';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import SvgLayout from '../SvgLayout/SvgLayout';
+import {useStateValue} from '../../StateProvider';
 
 import cssLogo from '../../img/css-3.svg';
 import bootstrapLogo from '../../img/bootstrap.svg';
@@ -23,8 +24,9 @@ import materialLogo from '../../img/material-ui.svg';
 
 
 function Skills() {
+  const [{darkMode}] = useStateValue()
   return (
-    <div className="skills">
+    <div className={darkMode ? 'skills dark__mode-2' : 'skills light__mode-2'}>
       <SvgLayout />
       <Slide left>
         <SectionTitle name="Skills" />

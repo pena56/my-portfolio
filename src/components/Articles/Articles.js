@@ -5,6 +5,7 @@ import Pulse from 'react-reveal';
 import './Articles.css';
 import SvgLayout from '../SvgLayout/SvgLayout';
 import SectionTitle from '../SectionTitle/SectionTitle';
+import { useStateValue } from '../../StateProvider';
 
 import prettier from '../../img/articles/prettier.jpeg';
 import django from '../../img/articles/django.jpeg';
@@ -12,8 +13,11 @@ import heroku from '../../img/articles/heroku.jpeg';
 import clap from '../../img/clap.png';
 
 function Articles() {
+  const [{ darkMode }] = useStateValue();
   return (
-    <div className="articles">
+    <div
+      className={darkMode ? 'articles dark__mode-1' : 'articles light__mode-1'}
+    >
       <SvgLayout />
       <Slide right>
         <SectionTitle name="Articles" />
@@ -79,7 +83,7 @@ function Articles() {
         href="https://medium.com/@ogbopinamoses"
         className="see__more"
       >
-        See More...{' '}
+        See More...
       </a>
     </div>
   );
