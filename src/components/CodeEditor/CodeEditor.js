@@ -55,9 +55,7 @@ function CodeEditor() {
                 <span className="codeEditor-class"> class=</span>
                 <span className="codeEditor-classname">"greetings"</span>
                 <span className="codeEditor-tag">&gt;</span>
-                <span className="codeEditor-text">
-                  Hello, i am{' '}
-                </span>{' '}
+                <span className="codeEditor-text">Hello, i am </span>{' '}
                 <span className="codeEditor-tag">&lt;</span>
                 <span className="codeEditor-element">p</span>
                 <span className="codeEditor-tag">/&gt;</span>
@@ -90,7 +88,7 @@ function CodeEditor() {
                 <span className="codeEditor-classname">"position"</span>
                 <span className="codeEditor-tag">&gt;</span>
                 <span className="codeEditor-text">
-                  Frontend Developer{' '}
+                  A Frontend Developer{' '}
                 </span>{' '}
                 <span className="codeEditor-tag">&lt;</span>
                 <span className="codeEditor-element">p</span>
@@ -108,8 +106,8 @@ function CodeEditor() {
                 <span className="codeEditor-classname">"about__me"</span>
                 <span className="codeEditor-tag">&gt;</span>
                 <span className="codeEditor-text">
-                  Some details about my self Some details about my self Some
-                  details about my self Some details about my self
+                  A design Oriented Frontend Developer, with aKnack for Problem
+                  Solving
                 </span>{' '}
                 <span className="codeEditor-tag">&lt;</span>
                 <span className="codeEditor-element">p</span>
@@ -148,7 +146,7 @@ function CodeEditor() {
                 <span className="codeEditor-element">span</span>
                 <span className="codeEditor-tag">&gt;</span>
                 <span className="codeEditor-text">
-                  (+234) 909 4873 272
+                  (+234) 815 2067 550
                 </span>{' '}
                 <span className="codeEditor-tag">&lt;</span>
                 <span className="codeEditor-element">span</span>

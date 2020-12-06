@@ -6,7 +6,6 @@ import htmlLogo from 'super-tiny-icons/images/svg/html5.svg';
 import javascriptLogo from 'super-tiny-icons/images/svg/javascript.svg';
 import pythonLogo from 'super-tiny-icons/images/svg/python.svg';
 import djangoLogo from 'super-tiny-icons/images/svg/djangoproject.svg';
-import githubLogo from 'super-tiny-icons/images/svg/github.svg';
 
 import './Projects.css';
 import SvgLayout from '../SvgLayout/SvgLayout';
@@ -49,17 +48,11 @@ function Projects() {
               <div className="project__details">
                 <p className="project__title">BookStore</p>
                 <p className="project__info">
-                  Sed porttitor lectus nibh. Donec rutrum congue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibu ngue leo eget malesuada. Pellentesque in ipsum id orci
-                  porta dapibus. Quisque velit nisi, pretium ut lacinia in,
-                  elementum id enim. Quisq enim. Vestibu ngue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibulum ac diam sit
+                  An Ecommerce application for a book store where users can view
+                  a selection of books and make their purchases online. The
+                  Application was built for learning purposes and i learnt how
+                  to use redux in a react application to act as a global store.
+                  The books were gotten from the Google books API.
                 </p>
                 <div className="project__stacks">
                   <img
@@ -97,10 +90,17 @@ function Projects() {
                   <a
                     href="https://github.com/pena56/book-store"
                     className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Repo
                   </a>
-                  <a href="#" className="project__button">
+                  <a
+                    href="https://book-store-680b6.web.app/"
+                    className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View App
                   </a>
                 </div>
@@ -116,17 +116,10 @@ function Projects() {
               <div className="project__details">
                 <p className="project__title">Netflix Clone</p>
                 <p className="project__info">
-                  Sed porttitor lectus nibh. Donec rutrum congue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibu ngue leo eget malesuada. Pellentesque in ipsum id orci
-                  porta dapibus. Quisque velit nisi, pretium ut lacinia in,
-                  elementum id enim. Quisq enim. Vestibu ngue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibulum ac diam sit
+                  A React application for viewing the titles of movie, the
+                  application was built as a model to Netflix. Movies were
+                  gotten from TMDB API. Styling was accomplished using
+                  Material-ui library.
                 </p>
                 <div className="project__stacks">
                   <img
@@ -157,12 +150,19 @@ function Projects() {
                 </div>
                 <div className="project__buttons">
                   <a
-                    href="https://github.com/pena56/book-store"
+                    href="https://github.com/pena56/netflix-clone"
                     className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Repo
                   </a>
-                  <a href="#" className="project__button">
+                  <a
+                    href="https://netflix-clone-2cc40.web.app/"
+                    className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View App
                   </a>
                 </div>
@@ -178,17 +178,10 @@ function Projects() {
               <div className="project__details">
                 <p className="project__title">Freshpepper</p>
                 <p className="project__info">
-                  Sed porttitor lectus nibh. Donec rutrum congue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibu ngue leo eget malesuada. Pellentesque in ipsum id orci
-                  porta dapibus. Quisque velit nisi, pretium ut lacinia in,
-                  elementum id enim. Quisq enim. Vestibu ngue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibulum ac diam sit
+                  A Movie Listing React Application Used TMDB API to get
+                  information about movies and also to play the trailer of a
+                  selected movie. Used React-Router to add routing to the Single
+                  page application
                 </p>
                 <div className="project__stacks">
                   <img
@@ -219,12 +212,19 @@ function Projects() {
                 </div>
                 <div className="project__buttons">
                   <a
-                    href="https://github.com/pena56/book-store"
+                    href="https://github.com/pena56/fresh-pepper-v2"
                     className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Repo
                   </a>
-                  <a href="#" className="project__button">
+                  <a
+                    href="https://netflix-clone-2cc40.web.app/"
+                    className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View App
                   </a>
                 </div>
@@ -240,17 +240,11 @@ function Projects() {
               <div className="project__details">
                 <p className="project__title">Omoki</p>
                 <p className="project__info">
-                  Sed porttitor lectus nibh. Donec rutrum congue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibu ngue leo eget malesuada. Pellentesque in ipsum id orci
-                  porta dapibus. Quisque velit nisi, pretium ut lacinia in,
-                  elementum id enim. Quisq enim. Vestibu ngue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibulum ac diam sit
+                  An Event Organizer Application, where i used Html, CSS, and
+                  JavaScript to design the frontend of the application I also
+                  Used Django to develop the backend of the application Used
+                  Postgress Database for creating models. Used Material
+                  Bootstrap for UI components.
                 </p>
                 <div className="project__stacks">
                   <img
@@ -286,12 +280,19 @@ function Projects() {
                 </div>
                 <div className="project__buttons">
                   <a
-                    href="https://github.com/pena56/book-store"
+                    href="https://github.com/pena56/omoki"
                     className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Repo
                   </a>
-                  <a href="#" className="project__button">
+                  <a
+                    href="https://omoki.herokuapp.com/"
+                    className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View App
                   </a>
                 </div>
@@ -307,17 +308,8 @@ function Projects() {
               <div className="project__details">
                 <p className="project__title">ChatRoom</p>
                 <p className="project__info">
-                  Sed porttitor lectus nibh. Donec rutrum congue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibu ngue leo eget malesuada. Pellentesque in ipsum id orci
-                  porta dapibus. Quisque velit nisi, pretium ut lacinia in,
-                  elementum id enim. Quisq enim. Vestibu ngue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibulum ac diam sit
+                  A Simple Chat Room application using react and firebase
+                  firestore. Feel free to drop a message in the room.
                 </p>
                 <div className="project__stacks">
                   <img
@@ -348,12 +340,19 @@ function Projects() {
                 </div>
                 <div className="project__buttons">
                   <a
-                    href="https://github.com/pena56/book-store"
+                    href="https://github.com/pena56/chat-room"
                     className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Repo
                   </a>
-                  <a href="#" className="project__button">
+                  <a
+                    href="https://messenger-clone-cf5cb.web.app/"
+                    className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View App
                   </a>
                 </div>
@@ -369,17 +368,8 @@ function Projects() {
               <div className="project__details">
                 <p className="project__title">ImageSearch</p>
                 <p className="project__info">
-                  Sed porttitor lectus nibh. Donec rutrum congue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibu ngue leo eget malesuada. Pellentesque in ipsum id orci
-                  porta dapibus. Quisque velit nisi, pretium ut lacinia in,
-                  elementum id enim. Quisq enim. Vestibu ngue leo eget
-                  malesuada. Pellentesque in ipsum id orci porta dapibus.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                  Vestibulum ac diam sit
+                  A Next.js Application using Tailwind css and Pixabay API. Also
+                  added a search functionality for finding images,
                 </p>
                 <div className="project__stacks">
                   <img
@@ -410,12 +400,19 @@ function Projects() {
                 </div>
                 <div className="project__buttons">
                   <a
-                    href="https://github.com/pena56/book-store"
+                    href="https://github.com/pena56/image-search"
                     className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Repo
                   </a>
-                  <a href="#" className="project__button">
+                  <a
+                    href="https://image-search-ea2d0.web.app/"
+                    className="project__button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View App
                   </a>
                 </div>

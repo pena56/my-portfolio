@@ -7,10 +7,10 @@ import googlemapsLogo from 'super-tiny-icons/images/svg/google_maps.svg';
 import './Hero.css';
 import CodeEditor from '../CodeEditor/CodeEditor';
 import ContactButton from '../Contact/ContactButton';
-import {useStateValue} from '../../StateProvider';
+import { useStateValue } from '../../StateProvider';
 
 function Hero() {
-  const [{darkMode}] = useStateValue()
+  const [{ darkMode }] = useStateValue();
 
   const [greeting, setGreeting] = useState('');
   const [name, setName] = useState('');
@@ -59,8 +59,8 @@ function Hero() {
       setAbout(
         <Slide left>
           <p className="hero__about">
-            A design Oriented Frontend Developer A design Oriented Frontend
-            Developer
+            A design Oriented Frontend Developer, with a Knack for Problem
+            Solving
           </p>
         </Slide>
       );
@@ -74,7 +74,7 @@ function Hero() {
         <Slide left>
           <div className="hero__contacts">
             <img src={phoneLogo} alt="phone" className="svg__icon" />
-            <span>(+234) 909 4873 272</span>
+            <span>(+234) 815 2067 550</span>
           </div>
         </Slide>
       );

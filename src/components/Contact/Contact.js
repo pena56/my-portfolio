@@ -16,8 +16,7 @@ function Contact() {
       <SectionTitle name="Contact" />
       <div className="contact__items">
         <p className="contact__text">
-          Want to chat about coding, life or how awesome Naruto is, Drop a
-          message.
+          Want to chat about a Project, life in general, or all things anime, feel free to drop a message
         </p>
         <ContactButton />
       </div>

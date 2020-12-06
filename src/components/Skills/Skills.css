@@ -23,6 +23,10 @@
   border-radius: 10px;
 }
 
+.dark__mode-2 > .skills__list > .skill__item {
+  background: #01183a;
+}
+
 .skill__image {
   width: 130px;
   height: 130px;
