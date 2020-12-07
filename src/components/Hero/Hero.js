@@ -28,7 +28,7 @@ function Hero() {
           <p className="hero__text hero__greeting">Hello, i am</p>
         </Slide>
       );
-    }, 4000);
+    }, 2000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -39,7 +39,7 @@ function Hero() {
           <h1 className="hero__text hero__name">Moses Ogbopina</h1>
         </Slide>
       );
-    }, 6000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -50,7 +50,7 @@ function Hero() {
           <p className="hero__text hero__position">a Frontend developer</p>
         </Slide>
       );
-    }, 8000);
+    }, 4000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -64,7 +64,7 @@ function Hero() {
           </p>
         </Slide>
       );
-    }, 10000);
+    }, 5000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -78,7 +78,7 @@ function Hero() {
           </div>
         </Slide>
       );
-    }, 16000);
+    }, 8000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -92,7 +92,7 @@ function Hero() {
           </div>
         </Slide>
       );
-    }, 24000);
+    }, 12000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -106,7 +106,7 @@ function Hero() {
           </div>
         </Slide>
       );
-    }, 32000);
+    }, 16000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -117,7 +117,7 @@ function Hero() {
           <ContactButton />
         </Slide>
       );
-    }, 35000);
+    }, 18000);
     return () => clearTimeout(timer);
   }, []);
 

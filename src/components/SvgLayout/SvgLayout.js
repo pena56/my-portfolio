@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './SvgLayout.css';
+
 function SvgLayout() {
   return (
     <div

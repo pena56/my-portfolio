@@ -90,9 +90,9 @@
 }
 
 .codeEditor-codes .codeEditor-line:nth-child(1) {
-  width: 11rem;
-  -webkit-animation: type 2s steps(40, end);
-  animation: type 2s steps(40, end);
+  width: 12rem;
+  -webkit-animation: type 1s steps(40, end);
+  animation: type 1s steps(40, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -100,10 +100,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(2) {
   width: 24rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -111,10 +111,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(3) {
   width: 21rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -122,10 +122,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(4) {
   width: 23rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 6s;
-  animation-delay: 6s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -133,10 +133,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(5) {
   width: 28rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 8s;
-  animation-delay: 8s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -144,10 +144,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(6) {
   width: 15rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 10s;
-  animation-delay: 10s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -155,10 +155,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(7) {
   width: 9rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 12s;
-  animation-delay: 12s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -166,10 +166,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(8) {
   width: 20rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 14s;
-  animation-delay: 14s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -177,10 +177,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(9) {
   width: 5rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 16s;
-  animation-delay: 16s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -188,10 +188,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(10) {
   width: 10rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 18s;
-  animation-delay: 18s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -199,10 +199,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(11) {
   width: 8rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 20s;
-  animation-delay: 20s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -210,10 +210,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(12) {
   width: 23rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 22s;
-  animation-delay: 22s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 11s;
+  animation-delay: 11s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -221,10 +221,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(13) {
   width: 5rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 24s;
-  animation-delay: 24s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 12s;
+  animation-delay: 12s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -232,10 +232,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(14) {
   width: 13rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 26s;
-  animation-delay: 26s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 13s;
+  animation-delay: 13s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -243,10 +243,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(15) {
   width: 9rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 28s;
-  animation-delay: 28s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 14s;
+  animation-delay: 14s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -254,10 +254,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(16) {
   width: 25rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 30s;
-  animation-delay: 30s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -265,10 +265,10 @@
 .codeEditor-codes .codeEditor-line:nth-child(17) {
   width: 5rem;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 32s;
-  animation-delay: 32s;
+  -webkit-animation: type2 1s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 16s;
+  animation-delay: 16s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -276,11 +276,11 @@
 .codeEditor-codes .codeEditor-line:nth-child(18) {
   width: 3rem;
   opacity: 0;
-  -webkit-animation: type2 5s steps(20, end),
+  -webkit-animation: type2 1s steps(20, end),
     blink 0.5s step-end infinite alternate;
-  animation: type3 2s steps(40, end), blink 0.5s step-end infinite alternate;
-  -webkit-animation-delay: 34s;
-  animation-delay: 34s;
+  animation: type3 1s steps(40, end), blink 0.5s step-end infinite alternate;
+  -webkit-animation-delay: 17s;
+  animation-delay: 17s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
